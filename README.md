@@ -1,4 +1,4 @@
-# sample-storm-hdfs-app
+### sample-storm-hdfs-app
 
 #### configure Storm AutoHDFS plugin as follows
 ```
@@ -15,7 +15,7 @@ mvn clean package
 ### upload to storm cluster and run topology using 
 
 ```
-storm jar sample-strom-hbase-1.0-SNAPSHOT.jar com.mycompany.app.TestTopology TestTopology
+storm jar sample-strom-hdfs-1.0-SNAPSHOT.jar com.mycompany.app.TestTopology TestTopology
 
 ```
 
